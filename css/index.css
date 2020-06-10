@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: #fafafa;
+  font-family: "Poppins", sans-serif;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.content {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.second {
+  padding-bottom: 0.6em;
+  font-size: 24px;
+}
+.first {
+  font-size: 24px;
+  font-weight: 200;
+}
+.content p {
+  font-size: 14px;
+  text-align: justify;
+  color: hsl(229, 6%, 66%);
+}
+.others p {
+  color: hsl(229, 6%, 66%);
+  font-size: 12px;
+}
+.others img {
+  height: 50px;
+  margin-top: 20%;
+  margin-left: 80%;
+  padding-bottom: 0.6em;
+  margin-bottom: 2em;
+}
+.super,
+.team,
+.karma,
+.calc {
+  border-radius: 3px;
+  box-shadow: 0px 12px 19px -8px rgba(196, 192, 196, 1);
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 2em;
+  margin-bottom: 1em;
+}
+.super {
+  border-top: 3px solid hsl(180, 62%, 55%);
+}
+.team {
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+.karma {
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+.calc {
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media only screen and (min-width: 800px) {
+  .container {
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+  .content p {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .others {
+    display: grid;
+    grid-gap: 2em 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 3em;
+  }
+  .others p {
+    font-size: 15px;
+  }
+  .super {
+    grid-row: 2/4;
+    grid-column: 1/2;
+  }
+  .team {
+    grid-row: 1/3;
+    grid-column: 2/3;
+  }
+  .karma {
+    grid-row: 3/5;
+    grid-column: 2/3;
+  }
+  .calc {
+    grid-row: 2/4;
+    grid-column: 3/4;
+  }
+}
